@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F407AD711A8DCE6E00EF3A60 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F407AD701A8DCE6E00EF3A60 /* main.c */; };
+		F4236DE11A92A6AB00B7AC74 /* libreadline.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4236DE01A92A6AB00B7AC74 /* libreadline.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		F407AD6D1A8DCE6E00EF3A60 /* learnC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learnC; sourceTree = BUILT_PRODUCTS_DIR; };
 		F407AD701A8DCE6E00EF3A60 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F4236DE01A92A6AB00B7AC74 /* libreadline.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libreadline.dylib; path = usr/lib/libreadline.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4236DE11A92A6AB00B7AC74 /* libreadline.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		F407AD641A8DCE6D00EF3A60 = {
 			isa = PBXGroup;
 			children = (
+				F4236DE01A92A6AB00B7AC74 /* libreadline.dylib */,
 				F407AD6F1A8DCE6E00EF3A60 /* learnC */,
 				F407AD6E1A8DCE6E00EF3A60 /* Products */,
 			);
@@ -232,6 +236,7 @@
 				F407AD761A8DCE6E00EF3A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
